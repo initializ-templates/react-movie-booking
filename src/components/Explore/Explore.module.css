@@ -1,0 +1,40 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	/* padding: 30px; */
+	margin-top: 20px;
+	min-height: 90vh;
+}
+
+.container .header {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	row-gap: 10px;
+}
+
+.chip {
+	border-radius: 20px;
+	color: rgb(255, 255, 255);
+	border: 1px solid rgb(110, 244, 14);
+	padding: 3px 8px;
+	cursor: pointer;
+}
+.activeChip {
+	border: 1px solid #a909ff;
+	color: #05e9f9;
+}
+
+.title {
+	font-weight: bold;
+	font-size: 1.5rem;
+	color: rgb(246, 248, 245);
+}
+
+.body {
+	display: flex;
+	gap: 30px;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
